@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>BloodBoltsandAndBonesCarpdpackPort</AssemblyName>
+    <Description>This is a Port of Nev's Blood Bolts and Bones Cardpack to API 2+</Description>
+    <Version>2.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>    
+
+  <ItemGroup>
+    <Content Include="art\CardArt\portrait_3LD3R.png" />
+    <Content Include="art\CardArt\portrait_45T3R01D.png" />
+    <Content Include="art\CardArt\portrait_4DULT.png" />
+    <Content Include="art\CardArt\portrait_534RCHB0T.png" />
+    <Content Include="art\CardArt\portrait_5P1D3RT4NK.png" />
+    <Content Include="art\CardArt\portrait_B0N3W3B.png" />
+    <Content Include="art\CardArt\portrait_B10CKB0T.png" />
+    <Content Include="art\CardArt\portrait_B3B13.png" />
+    <Content Include="art\CardArt\portrait_B41T3DTR4P.png" />
+    <Content Include="art\CardArt\portrait_BuffBot.png" />
+    <Content Include="art\CardArt\portrait_BurntSkull.png" />
+    <Content Include="art\CardArt\portrait_BUZZ.png" />
+    <Content Include="art\CardArt\portrait_Cerebus.png" />
+    <Content Include="art\CardArt\portrait_Crocodile.png" />
+    <Content Include="art\CardArt\portrait_CUR53D 5KU11.png" />
+    <Content Include="art\CardArt\portrait_CYB0RG1.png" />
+    <Content Include="art\CardArt\portrait_CYB3RMU13.png" />
+    <Content Include="art\CardArt\portrait_D1GG3R.png" />
+    <Content Include="art\CardArt\portrait_D1V3R.png" />
+    <Content Include="art\CardArt\portrait_D34THST4R.png" />
+    <Content Include="art\CardArt\portrait_D3L3T3TH15.png" />
+    <Content Include="art\CardArt\portrait_DeadBoy.png" />
+    <Content Include="art\CardArt\portrait_DeadlyScarab.png" />
+    <Content Include="art\CardArt\portrait_DeadlySkeleton.png" />
+    <Content Include="art\CardArt\portrait_F0CU553DF1R3.png" />
+    <Content Include="art\CardArt\portrait_F13LD4NT.png" />
+    <Content Include="art\CardArt\portrait_FlyingScarab.png" />
+    <Content Include="art\CardArt\portrait_G00DB0Y.png" />
+    <Content Include="art\CardArt\portrait_G3KK0.png" />
+    <Content Include="art\CardArt\portrait_GoldenScarab.png" />
+    <Content Include="art\CardArt\portrait_GOODBOY.png" />
+    <Content Include="art\CardArt\portrait_Gremlin.png" />
+    <Content Include="art\CardArt\portrait_GuardDog.png" />
+    <Content Include="art\CardArt\portrait_H34VY4RT1LL3RY.png" />
+    <Content Include="art\CardArt\portrait_H34VY4RT1LL3RY2.png" />
+    <Content Include="art\CardArt\portrait_H4R3B0T.png" />
+    <Content Include="art\CardArt\portrait_H4RDH4T.png" />
+    <Content Include="art\CardArt\portrait_leapbot.png" />
+    <Content Include="art\CardArt\portrait_M00N.png" />
+    <Content Include="art\CardArt\portrait_M1N3F13LD.png" />
+    <Content Include="art\CardArt\portrait_M3T30R.png" />
+    <Content Include="art\CardArt\portrait_MadBomber.png" />
+    <Content Include="art\CardArt\portrait_N3CR0B0MB.png" />
+    <Content Include="art\CardArt\portrait_none.png" />
+    <Content Include="art\CardArt\portrait_P14YP3N.png" />
+    <Content Include="art\CardArt\portrait_portal.png" />
+    <Content Include="art\CardArt\portrait_R3L04D.png" />
+    <Content Include="art\CardArt\portrait_ReanimatingRemains.png" />
+    <Content Include="art\CardArt\portrait_sentry.png" />
+    <Content Include="art\CardArt\portrait_skeleton.png" />
+    <Content Include="art\CardArt\portrait_SkeletonArcher.png" />
+    <Content Include="art\CardArt\portrait_SkeletonGeneral.png" />
+    <Content Include="art\CardArt\portrait_SkeletonMage.png" />
+    <Content Include="art\CardArt\portrait_SkeletonWarrior.png" />
+    <Content Include="art\CardArt\portrait_SlingerSquirrel.png" />
+    <Content Include="art\CardArt\portrait_Sniper.png" />
+    <Content Include="art\CardArt\portrait_squirrel.png" />
+    <Content Include="art\CardArt\portrait_squirrel2.png" />
+    <Content Include="art\CardArt\portrait_SquirrelQueen.png" />
+    <Content Include="art\CardArt\portrait_SquirrelSkeleton.png" />
+    <Content Include="art\CardArt\portrait_ST04T.png" />
+    <Content Include="art\CardArt\portrait_ST33LHYDR4.png" />
+    <Content Include="art\CardArt\portrait_T33N4G3R.png" />
+    <Content Include="art\CardArt\portrait_TheSquarm.png" />
+    <Content Include="art\CardArt\portrait_WarriorSquirrel.png" />
+    <Content Include="art\CardArt\portrait_WaxyHusk.png" />
+    <Content Include="art\CardArt\portrait_Whale.png" />
+    <Content Include="art\CardArt\portrait_WorkerSquirrel.png" />
+    <Content Include="art\CardArt\portrait_Y3T1B0T.png" />
+    <Content Include="art\CardArt\portrait_Zombie.png" />
+    <Content Include="art\Decals\NevBBBB.png" />
+    <Content Include="art\Decals\portait_CR3D1TC4RD.png" />
+    <Content Include="art\Misc\BloodBoltsAndBatteriesCardPack.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx-MonoMod_Loader_Inscryption" Version="1.0.0" />
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
+    <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Infiniscryption.PackManager">
+      <HintPath>lib\Infiniscryption.PackManager.dll</HintPath>
+    </Reference>
+    <Reference Include="InscryptionAPI">
+      <HintPath>lib\InscryptionAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="InscryptionCommunityPatch">
+      <HintPath>lib\InscryptionCommunityPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>lib\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

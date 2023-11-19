@@ -1,0 +1,15 @@
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\BloodBoltsandAndBonesCarpdpackPort.deps.json
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\BloodBoltsandAndBonesCarpdpackPort.dll
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\BloodBoltsandAndBonesCarpdpackPort.pdb
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\Infiniscryption.PackManager.dll
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\InscryptionAPI.dll
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\bin\Release\netstandard2.0\InscryptionCommunityPatch.dll
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.csproj.AssemblyReference.cache
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\PluginInfo.cs
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.AssemblyInfoInputs.cache
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.AssemblyInfo.cs
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.csproj.CoreCompileInputs.cache
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsAndBatteriesPort.csproj.CopyComplete
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsandAndBonesCarpdpackPort.dll
+C:\Users\Thinc\source\repos\BloodBoltsandBonesCardPackByNev\obj\Release\netstandard2.0\BloodBoltsandAndBonesCarpdpackPort.pdb
