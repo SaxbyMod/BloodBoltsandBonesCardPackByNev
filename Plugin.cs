@@ -5,11 +5,14 @@ using HarmonyLib;
 using Infiniscryption.PackManagement;
 using InscryptionAPI.Card;
 using InscryptionAPI.Helpers;
+using System.IO;
+using UnityEngine.UI;
 
 namespace ExampleMod
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     [BepInDependency("cyantist.inscryption.api", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("zorro.inscryption.infiniscryption.packmanager", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
         // --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,7 +115,7 @@ namespace ExampleMod
                 {
                     PackInfo BBBPack = PackManager.GetPackInfo("BloodBoltsAndBatteriesCardPack");
                     BBBPack.Title = "Blood Bolts and Batteries Expansion";
-                    BBBPack.SetTexture(TextureHelper.GetImageAsTexture("../Art/Misc/BloodBoltsAndBatteriesCardPack.png"));
+                    BBBPack.SetTexture(TextureHelper.GetImageAsTexture("BloodBoltsAndBatteriesCardPack.png"));
                     BBBPack.Description = "A package of Blood Bolts and Batteries.";
                     BBBPack.ValidFor.Add(PackInfo.PackMetacategory.LeshyPack);
                     BBBPack.ValidFor.Add(PackInfo.PackMetacategory.P03Pack);
